@@ -19,23 +19,19 @@ body{
 .heade .logo{
     float: left;
 }
-.header .copyright{
-    float:right;
-    font-size:12px;
-    color:#fff;
-    text-align:right;
-    line-height:20px;
-    margin-top:10px;
-}
+
 .login_form_con{
     position:absolute;
     left:50%;
     top:50%;
+    border-radius: 20px;
+    overflow: hidden;
     margin-left:-200px;
     margin-top:-155px;
     width:400px;
     height:310px;
     background-color: #edeff0;
+    box-shadow: 1px 6px 5px #000;
 }
 
 .login_form{
@@ -47,18 +43,24 @@ body{
     font-size:16px;
     color:#999;
     left:46px;
-    top:12px;
+    top:9px;
 }
 .login_form .icon-key{
     position:absolute;
     font-size:18px;
     color:#999;
     left:46px;
-    top:78px;
+    top:75px;
 }
 .login_title{
     height:60px;
-    background:url('../images/login_title.png') center center no-repeat #fff;
+    line-height: 60px;
+    text-align: center;
+    background-color: #19b9e7;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing:14px; 
 }
 .input_txt,.input_pass,.input_sub{
     display:block;
